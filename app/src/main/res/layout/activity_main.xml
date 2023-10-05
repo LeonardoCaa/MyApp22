@@ -6,10 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<com.google.android.material.bottomnavigation.BottomNavigationView
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/FABmail"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="bottom|right"
-    android:backgroundTint="@color/black"/>
+    android:backgroundTint="#BA81F3"
+    android:layout_margin="16px"
+    android:src="@drawable/baseline_mail"
+    />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

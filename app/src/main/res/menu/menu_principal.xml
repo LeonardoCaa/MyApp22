@@ -2,9 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/mFAVORITE"
         android:icon="@drawable/baseline_favorite"
         android:title="Favorite"
-        android:id="@+id/mFAVORITE"
-        app:showAsAction=""/>
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mMusic"
+        android:icon="@drawable/baseline_library_music"
+        android:title="Music"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mPlaces"
+        android:icon="@drawable/baseline_place"
+        android:title="Places"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mNewsPapers"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="NewsPapers"
+        app:showAsAction="ifRoom" />
+
 
 </menu>
